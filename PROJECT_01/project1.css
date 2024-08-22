@@ -51,7 +51,7 @@ form {
     box-shadow: 0px 0px 5px 0px #b8d3ef;
     z-index: 1;
     border-radius: 15px;
-    top: 100%;
+    top: 110%;
     left: 0;
     overflow: hidden;
     animation: fadeIn 0.3s ease-in-out;
