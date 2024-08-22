@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="search-container">
+        <form action="#">
+            <div class="dropdown">
+                <button id="dropdown-btn" class="dropdown-btn">Everything <span class="arrow">&#x25BC;</span></button>
+                <div class="dropdown-content">
+                    <a href="#" data-value="Everything">Everything </a>
+                    <a href="#" data-value="Software Development">Software Development</a>
+                    <a href="#" data-value="Web Development">Web Development</a>
+                    <a href="#" data-value="Data Analyst">Data Analyst</a>
+                    <a href="#" data-value="IT Consultant">IT Consultant</a>
+                    <a href="#" data-value="Network Administrator">Network Administrator</a>
+                </div>
+            </div>
+            <input type="text" id="search-input" placeholder="Search Anything" class="search-input">
+            <button type="submit" class="search-btn">
+                <img src="search_icon.png" alt="Search">
+            </button>
+        </form>
+    </div>
+    <script src="project1.js"></script>
+</body>
+</html>
